@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <!-- escrever comentários: ctrl ; ou ctrl /  -->
+
+    <!--  Início do formulário -->
+    <form>
+        <fieldset>
+            <!-- É uma caixa para adicionar um estilo ao nosso form -->
+            <legend>Formulário</legend>
+            <!-- o legend é utilizada junto ao filtro fieldset, pra ser o título da caixa de texto -->
+
+            <label for="name">Nome:</label>
+            <!-- Label significa rótulo, ou seja, a descrição da informação que será depositad no imput -->
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            <!-- for é para onde o nput vi  -->
+            <!-- input é o campo para informação -->
+            <!-- id é um identifciador -->
+            <!-- type é o tipo que está sendo o input -->
+            <!-- placeholder = o texto mais claro que apare no input (dentro da caixa que quando clicamos para escrevr ele some - chamado de espaço reservado, pra pessoa saber o que colocar no formuláro) -->
+
+            <!-- Campo para digitar o email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="exemplo@email.com" required>
+
+            <!-- Campo para senha -->
+            <label for="">Senha:</label>
+            <input type="password" placeholder="Digite sua senha" required>
+
+            <!-- Campo para enviar os dados do formulário -->
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
